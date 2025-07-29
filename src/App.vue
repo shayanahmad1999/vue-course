@@ -5,6 +5,8 @@ import GlobalStyle from './components/GlobalStyle.vue';
 import HelloWorld from './components/HelloWorld.vue';
 import LocalStyle from './components/LocalStyle.vue';
 import ModuleStyle from './components/ModuleStyle.vue';
+import ReactiveComponent from './components/ReactiveComponent.vue';
+import RefComponent from './components/RefComponent.vue';
 import TextInterpolation from './components/TextInterpolation.vue';
 </script>
 <template>
@@ -21,5 +23,9 @@ import TextInterpolation from './components/TextInterpolation.vue';
   <ModuleStyle />
 
   <EventHandler />
+
+  <ReactiveComponent />
+
+  <RefComponent />
 </template>
 <style scoped></style>
