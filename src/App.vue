@@ -1,4 +1,5 @@
 <script setup>
+import AttritubeBinding from './components/AttritubeBinding.vue';
 import HelloWorld from './components/HelloWorld.vue';
 import TextInterpolation from './components/TextInterpolation.vue';
 </script>
@@ -6,5 +7,7 @@ import TextInterpolation from './components/TextInterpolation.vue';
   <HelloWorld />
 
   <TextInterpolation />
+
+  <AttritubeBinding />
 </template>
 <style scoped></style>
