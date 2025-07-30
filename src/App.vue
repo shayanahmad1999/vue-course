@@ -1,6 +1,7 @@
 <script setup>
 import AttritubeBinding from './components/AttritubeBinding.vue';
 import ComputedPropreties from './components/computedPropreties.vue';
+import ConditionalRendering from './components/ConditionalRendering.vue';
 import EventHandler from './components/EventHandler.vue';
 import GlobalStyle from './components/GlobalStyle.vue';
 import HelloWorld from './components/HelloWorld.vue';
@@ -30,5 +31,7 @@ import TextInterpolation from './components/TextInterpolation.vue';
   <RefComponent />
 
   <ComputedPropreties />
+
+  <ConditionalRendering />
 </template>
 <style scoped></style>
