@@ -87,5 +87,10 @@ const lastName = ref('Ahmad');
       <h1>This Content will go to slot "two"</h1>
     </template>
   </NamedSlot>
+  <DefaultSlot>
+    <template #default>
+      <h1>this is some random content for default slot.</h1>
+    </template>
+  </DefaultSlot>
 </template>
 <style scoped></style>
