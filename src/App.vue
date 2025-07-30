@@ -5,6 +5,7 @@ import ConditionalRendering from './components/ConditionalRendering.vue';
 import EventHandler from './components/EventHandler.vue';
 import GlobalStyle from './components/GlobalStyle.vue';
 import HelloWorld from './components/HelloWorld.vue';
+import ItrationComponent from './components/ItrationComponent.vue';
 import LocalStyle from './components/LocalStyle.vue';
 import ModuleStyle from './components/ModuleStyle.vue';
 import ReactiveComponent from './components/ReactiveComponent.vue';
@@ -33,5 +34,7 @@ import TextInterpolation from './components/TextInterpolation.vue';
   <ComputedPropreties />
 
   <ConditionalRendering />
+
+  <ItrationComponent />
 </template>
 <style scoped></style>
