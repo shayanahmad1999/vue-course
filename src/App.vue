@@ -7,6 +7,7 @@ import GlobalStyle from './components/GlobalStyle.vue';
 import HelloWorld from './components/HelloWorld.vue';
 import ItrationComponent from './components/ItrationComponent.vue';
 import LocalStyle from './components/LocalStyle.vue';
+import ModelComponent from './components/ModelComponent.vue';
 import ModuleStyle from './components/ModuleStyle.vue';
 import ReactiveComponent from './components/ReactiveComponent.vue';
 import RefComponent from './components/RefComponent.vue';
@@ -36,5 +37,7 @@ import TextInterpolation from './components/TextInterpolation.vue';
   <ConditionalRendering />
 
   <ItrationComponent />
+
+  <ModelComponent />
 </template>
 <style scoped></style>
