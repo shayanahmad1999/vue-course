@@ -19,6 +19,7 @@ import ValidtionProps from './components/ValidtionProps.vue';
 import ComplexProps from './components/ComplexProps.vue';
 import CustomeValidatorProps from './components/CustomeValidatorProps.vue';
 import EventsParent from './components/EventsParent.vue';
+import SlotComponent from './components/SlotComponent.vue';
 
 const firstName = ref('Shayan');
 const lastName = ref('Ahmad');
@@ -63,5 +64,11 @@ const lastName = ref('Ahmad');
   <hr>
   <h1>events are child communicate with parent</h1>
   <EventsParent />
+  <hr />
+  <SlotComponent>
+    <h1>Content 1</h1>
+    <h2>Content 2</h2>
+    <h3>Content 3</h3>
+  </SlotComponent>
 </template>
 <style scoped></style>
