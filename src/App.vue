@@ -20,6 +20,7 @@ import ComplexProps from './components/ComplexProps.vue';
 import CustomeValidatorProps from './components/CustomeValidatorProps.vue';
 import EventsParent from './components/EventsParent.vue';
 import SlotComponent from './components/SlotComponent.vue';
+import FallbackContent from './components/FallbackContent.vue';
 
 const firstName = ref('Shayan');
 const lastName = ref('Ahmad');
@@ -70,5 +71,9 @@ const lastName = ref('Ahmad');
     <h2>Content 2</h2>
     <h3>Content 3</h3>
   </SlotComponent>
+  <hr />
+  <FallbackContent>
+    <!-- <p>Fallback will not work because I'm providing content inside the component</p> -->
+  </FallbackContent>
 </template>
 <style scoped></style>
