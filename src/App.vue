@@ -18,6 +18,7 @@ import TextInterpolation from './components/TextInterpolation.vue';
 import ValidtionProps from './components/ValidtionProps.vue';
 import ComplexProps from './components/ComplexProps.vue';
 import CustomeValidatorProps from './components/CustomeValidatorProps.vue';
+import EventsParent from './components/EventsParent.vue';
 
 const firstName = ref('Shayan');
 const lastName = ref('Ahmad');
@@ -59,5 +60,8 @@ const lastName = ref('Ahmad');
     :userInfo="{ name: 'alex', age: 20, location: ['Earth', 'IDK'] }" />
   <hr />
   <CustomeValidatorProps name="Shayan" :age="25" password="impossiblePassword" />
+  <hr>
+  <h1>events are child communicate with parent</h1>
+  <EventsParent />
 </template>
 <style scoped></style>
