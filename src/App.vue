@@ -28,6 +28,9 @@ import LifeCycle from './components/LifeCycle.vue';
 import BasicCpmponent from './components/BasicCpmponent.vue';
 import ReactiveObject from './components/ReactiveObject.vue';
 import MultipleSource from './components/MultipleSource.vue';
+import BasicTemplateRef from './components/BasicTemplateRef.vue';
+import FunctionTemplateRef from './components/FunctionTemplateRef.vue';
+import TemplateRefComponent1 from './components/TemplateRefComponent1.vue';
 
 const firstName = ref('Shayan');
 const lastName = ref('Ahmad');
@@ -175,5 +178,9 @@ let showHideComponent = ref(true);
   <BasicCpmponent />
   <ReactiveObject />
   <MultipleSource />
+  <hr />
+  <BasicTemplateRef />
+  <FunctionTemplateRef />
+  <TemplateRefComponent1 />
 </template>
 <style scoped></style>
