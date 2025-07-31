@@ -31,6 +31,7 @@ import MultipleSource from './components/MultipleSource.vue';
 import BasicTemplateRef from './components/BasicTemplateRef.vue';
 import FunctionTemplateRef from './components/FunctionTemplateRef.vue';
 import TemplateRefComponent1 from './components/TemplateRefComponent1.vue';
+import ToggleFriends from './components/ToggleFriends.vue';
 
 const firstName = ref('Shayan');
 const lastName = ref('Ahmad');
@@ -182,5 +183,7 @@ let showHideComponent = ref(true);
   <BasicTemplateRef />
   <FunctionTemplateRef />
   <TemplateRefComponent1 />
+  <hr />
+  <ToggleFriends />
 </template>
 <style scoped></style>
