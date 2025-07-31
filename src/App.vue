@@ -35,6 +35,8 @@ import ToggleFriends from './components/ToggleFriends.vue';
 import CounterCompoent from './components/CounterCompoent.vue';
 import CustomDirective from './components/CustomDirective.vue';
 import DynamicComponentMain from './components/DynamicComponentMain.vue';
+import GettingDataWithFetch from './components/GettingDataWithFetch.vue';
+import GettingDataWithAxios from './components/GettingDataWithAxios.vue';
 
 const firstName = ref('Shayan');
 const lastName = ref('Ahmad');
@@ -194,5 +196,9 @@ let showHideComponent = ref(true);
   <CustomDirective />
   <hr />
   <DynamicComponentMain />
+  <hr />
+  <GettingDataWithFetch />
+  <hr />
+  <GettingDataWithAxios />
 </template>
 <style scoped></style>
