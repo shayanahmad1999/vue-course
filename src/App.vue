@@ -25,6 +25,9 @@ import NamedSlot from './components/NamedSlot.vue';
 import SchoolComponent from './components/SchoolComponent.vue';
 import PracticeComponent from './components/PracticeComponent.vue';
 import LifeCycle from './components/LifeCycle.vue';
+import BasicCpmponent from './components/BasicCpmponent.vue';
+import ReactiveObject from './components/ReactiveObject.vue';
+import MultipleSource from './components/MultipleSource.vue';
 
 const firstName = ref('Shayan');
 const lastName = ref('Ahmad');
@@ -168,5 +171,9 @@ let showHideComponent = ref(true);
   <hr />
   <LifeCycle v-if="showHideComponent" />
   <button @click="showHideComponent = !showHideComponent">Show / Hide</button>
+  <hr />
+  <BasicCpmponent />
+  <ReactiveObject />
+  <MultipleSource />
 </template>
 <style scoped></style>
