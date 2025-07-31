@@ -24,6 +24,7 @@ import FallbackContent from './components/FallbackContent.vue';
 import NamedSlot from './components/NamedSlot.vue';
 import SchoolComponent from './components/SchoolComponent.vue';
 import PracticeComponent from './components/PracticeComponent.vue';
+import LifeCycle from './components/LifeCycle.vue';
 
 const firstName = ref('Shayan');
 const lastName = ref('Ahmad');
@@ -89,6 +90,8 @@ provide('moreGames', [
     releaseDate: '1994-09-23'
   }
 ]);
+
+let showHideComponent = ref(true);
 </script>
 <template>
   <HelloWorld />
@@ -162,5 +165,8 @@ provide('moreGames', [
   <SchoolComponent />
   <hr />
   <PracticeComponent />
+  <hr />
+  <LifeCycle v-if="showHideComponent" />
+  <button @click="showHideComponent = !showHideComponent">Show / Hide</button>
 </template>
 <style scoped></style>
