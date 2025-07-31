@@ -33,6 +33,7 @@ import FunctionTemplateRef from './components/FunctionTemplateRef.vue';
 import TemplateRefComponent1 from './components/TemplateRefComponent1.vue';
 import ToggleFriends from './components/ToggleFriends.vue';
 import CounterCompoent from './components/CounterCompoent.vue';
+import CustomDirective from './components/CustomDirective.vue';
 
 const firstName = ref('Shayan');
 const lastName = ref('Ahmad');
@@ -188,5 +189,7 @@ let showHideComponent = ref(true);
   <ToggleFriends />
   <hr />
   <CounterCompoent />
+  <hr>
+  <CustomDirective />
 </template>
 <style scoped></style>
