@@ -37,6 +37,16 @@ import CustomDirective from './components/CustomDirective.vue';
 import DynamicComponentMain from './components/DynamicComponentMain.vue';
 import GettingDataWithFetch from './components/GettingDataWithFetch.vue';
 import GettingDataWithAxios from './components/GettingDataWithAxios.vue';
+import TodoList from './components/TodoList.vue';
+import WikiClone from './components/WikiClone.vue';
+import RandomQuoteGenerator from './components/RandomQuoteGenerator.vue';
+import AmazingCalculator from './components/AmazingCalculator.vue';
+import FormValidation from './components/FormValidation.vue';
+import ProgressSteps from './components/ProgressSteps.vue';
+import PasswordGenerator from './components/PasswordGenerator.vue';
+import AccordionComponent from './components/AccordionComponent.vue';
+import GithubUsersSearch from './components/GithubUsersSearch.vue';
+import DadJokes from './components/DadJokes.vue';
 
 const firstName = ref('Shayan');
 const lastName = ref('Ahmad');
@@ -200,5 +210,31 @@ let showHideComponent = ref(true);
   <GettingDataWithFetch />
   <hr />
   <GettingDataWithAxios />
+  <hr />
+  <hr />
+  <hr />
+  <template>
+    <h1>Working on Mini Projects</h1>
+  </template>
+  <h2>Todo Project</h2>
+  <TodoList />
+  <h2>Wiki Project</h2>
+  <WikiClone />
+  <h2>RandomQuoteGenerator Project</h2>
+  <RandomQuoteGenerator />
+  <h2>Amazing Calculator Project</h2>
+  <AmazingCalculator />
+  <h2>Form Validation Project</h2>
+  <FormValidation />
+  <h2>Progress Steps Project</h2>
+  <ProgressSteps />
+  <h2>Password Generator Project</h2>
+  <PasswordGenerator />
+  <h2>Accordion Component Project</h2>
+  <AccordionComponent />
+  <h2>Github Users Search Project</h2>
+  <GithubUsersSearch />
+  <h2>Dad Jokes Project</h2>
+  <DadJokes />
 </template>
 <style scoped></style>
