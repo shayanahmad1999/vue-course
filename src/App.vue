@@ -34,6 +34,7 @@ import TemplateRefComponent1 from './components/TemplateRefComponent1.vue';
 import ToggleFriends from './components/ToggleFriends.vue';
 import CounterCompoent from './components/CounterCompoent.vue';
 import CustomDirective from './components/CustomDirective.vue';
+import DynamicComponentMain from './components/DynamicComponentMain.vue';
 
 const firstName = ref('Shayan');
 const lastName = ref('Ahmad');
@@ -191,5 +192,7 @@ let showHideComponent = ref(true);
   <CounterCompoent />
   <hr>
   <CustomDirective />
+  <hr />
+  <DynamicComponentMain />
 </template>
 <style scoped></style>
